@@ -72,7 +72,7 @@ def wizard():
     #login_btn_selector = raw_input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the Login button selector: ')
     login_btn_selector = ""
     #username = raw_input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the username to brute-force: ')
-    username = "Ihor.V.Karivets@lpnu.ua"
+    username = ""
     #pass_list = raw_input(color.GREEN + '[~] ' + color.CWHITE + 'Enter a directory to a password list: ')
     pass_list = "passwdgn.txt"
     brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website)
